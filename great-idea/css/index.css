@@ -64,3 +64,151 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* Header Styles */ 
+
+h1 {
+  font-family: 'Righteous', sans;
+}
+
+.page-container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 100;
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a5a5a5;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav button {
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background-color: transparent;
+  transition: all .1s ease-out;
+}
+
+nav button:hover {
+  transform: scale(1.1);
+}
+
+/* Page Styles */
+
+.content {
+  padding-top: 70px;
+}
+
+.subheader {
+  margin: 30px 0 50px 30px;
+  display: flex;
+}
+
+.subheader-section {
+  padding-top: 30px;
+}
+
+.subheader h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.subheader img {
+  margin-left: 30px;
+  width: 250px;
+}
+
+.subheader-img {
+  background-image: url("../img/header-img.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+.subheader button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 5px 25px;
+  transition: all .1s ease-out;
+}
+
+.subheader button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 3px 3px grey;
+}
+
+.sections {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+}
+
+.section-item-top, .section-item-bottom {
+  margin: 20px 0;  
+}
+
+.section-item-top {
+  width: 298px;
+}
+
+.section-item-bottom {
+  width: 196px;
+}
+
+.section-with-right-margin {
+  margin-right: 20px;
+}
+
+.middle-img {
+  width: 600px;
+  margin: 20px 0;
+}
+
+.text-group {
+  display: block;
+  margin: 10px 0;
+}
+
+footer {
+  margin: 40px 0 40px;
+}
+
+.copyright {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 12px;
+}
